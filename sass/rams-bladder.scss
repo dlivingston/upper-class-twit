@@ -1,0 +1,123 @@
+$black: 			#000000;
+$white: 			#ffffff;
+$offblack: 			#0f0f0f;
+$vitaminc: 			#FF9900;
+$route66: 			#666666;
+$route33: 			#333333;
+
+$white-brown: 		#DCDBCF;
+$blue-grey: 		#34363E;
+$midnight: 			#2C2D35;
+$offwhite: 			#F0F0F0;
+$blue: 				#448CCB;
+
+.rams-bladder {
+	body {
+		background: $white-brown url('/images/graphpapers/graphpaper-offwhite.png') repeat fixed;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 10px;
+	}
+	h1 { font-size: 4rem; }
+	h2 { font-size: 3.2rem; }
+	h3 { font-size: 2.8rem; }
+	h4 { font-size: 2.4rem; }
+	h5 { font-size: 2rem; }
+	header, nav, main, footer, p, ul { font-size: 1.2rem; line-height: 1.5; }
+	header, main, footer {
+		min-width: 855px;
+		background: rgba(255,255,255,0.5);
+		width: 80%;
+		margin: 20px auto;
+		padding: 20px;
+		clear: both;
+		overflow: auto;
+		border-radius: 10px;
+		color: $offblack;
+
+	}
+	a, a:visited { color: $blue-grey; }
+	a:hover, a:active { color: $blue; }
+	header {
+		
+		h1 {
+			width: 60%;
+			float: left;
+			font-size: 2.6rem;
+		}
+		nav {
+			width: 40%;
+			float: right;
+			a {
+				border-left: 1px solid #000000;
+				padding:  0 20px;
+				margin: 10px 0;
+				display: inline-block;
+				float: left;
+				&:first-child {
+					border: none;
+				}
+			}
+		}
+	}
+	main {
+		.left-col {
+			width: 70%;
+			float: left;
+		}
+		.right-col {
+			width: 30%;
+			float: right;
+		}
+	}
+	footer {
+		.contact {
+			width: 70%;
+			float: left;
+		}
+		.sitemap {
+			width: 30%;
+			float: right;
+		}
+	}
+	.faq {
+		li.q {
+			font-weight: 700;
+			margin: 20px 0;
+		}
+		li.a {
+			font-size: 1.2rem;
+			margin: 10px 0;
+		}
+	}
+	.tabs {
+		a {
+			span {
+				display: inline-block;
+				border-radius: 5px 5px 0 0;
+				width: 100px;
+				margin-right: 10px;
+				text-align: center;
+				background: $white-brown;
+				padding: 5px;
+				&.active{
+					background: $route66;
+					color: $offwhite;
+				}
+			}
+		}
+	}
+	.content {
+		background: $route66;
+		padding: 10px;
+		border-radius: 0 5px 5px 5px;
+		ul {
+			background: $white-brown;
+			padding: 10px;
+		}
+	}
+}
+.dl-logo {
+	max-width: 200px;
+	margin: 30px auto;
+	display: block;
+}

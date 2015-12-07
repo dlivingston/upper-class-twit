@@ -1,0 +1,78 @@
+html { background: #1a43b2 url("/images/graphpapers/graphpaper-blue.png") repeat fixed; color: #ffffff; font-family: "Open Sans", sans-serif; }
+
+body { margin: 0 auto; color: #ffffff; background: transparent; font-family: "Open Sans", sans-serif; font-size: 10px; }
+
+a { color: #ffffff; }
+
+.navbar-default { background: transparent; border: none; color: #ffffff; }
+
+.navbar-default .navbar-brand { color: #ffffff; }
+
+.navbar-header > h1 { font-size: 24px; margin: 0; }
+
+.navbar-header h1 a { font-size: 20px; font-weight: 200; }
+
+.navbar-header .navbar-brand h1 a:hover { color: #ffffff; text-decoration: underline; }
+
+.navbar-header { font-size: 24px; }
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { color: #ffffff; text-decoration: underline; }
+
+.header.container .navbar { border-bottom: 1px solid #ffffff; padding: 0; border-radius: 0; }
+
+.navbar-default .navbar-nav > li > a { color: #ffffff; font-size: 1.4rem; }
+
+.navbar-default .navbar-nav > li:hover, .navbar-default .navbar-nav > li > a:hover { color: #1a43b2; background: #ffffff; }
+
+.navbar .nav { margin-right: -15px; }
+
+img.dl-logo { display: block; transition: transform 1s ease 0s; }
+
+img.dl-logo:hover { transform: rotateY(360deg); transition: transform 1s ease 0s; }
+
+.jumbotron img.dl-logo { margin: 0 auto 20px; }
+
+.dl-sandbox p { font-family: "Open Sans", sans-serif; font-size: 1.4rem; font-weight: 100; line-height: 1.8; }
+.dl-sandbox .navbar h1 { line-height: 50px; }
+.dl-sandbox .navbar .navbar-brand { padding: 5px; height: 50px; line-height: 40px; }
+.dl-sandbox .navbar .dl-logo { width: 40px; margin-right: 10px; display: inline; float: left; }
+.dl-sandbox .navbar-toggle { margin-right: 0; }
+.dl-sandbox .navbar-toggle .icon-bar { background-color: #fff; }
+.dl-sandbox .jumbotron .dl-logo { width: 200px; margin: 0px auto 30px; display: block; }
+.dl-sandbox .jumbotron h1 { font-size: 40px; text-align: center; font-weight: 300; margin: 20px 0; }
+.dl-sandbox .jumbotron h2 { text-align: center; font-weight: 300; font-size: 30px; }
+.dl-sandbox .cycle-test { background-color: rgba(255, 255, 255, 0.5); }
+.dl-sandbox .slideshow { max-height: 500px; overflow: hidden; }
+.dl-sandbox .slideshow img { width: 100%; }
+.dl-sandbox .scroll-slide { display: block; width: 100%; }
+.dl-sandbox .scroll-slide a { display: block; width: 100%; }
+
+.dl-sandbox .jumbotron { background: transparent; border: 1px solid #ffffff; }
+
+.dl-sandbox .jumbotron p { text-align: center; width: 80%; margin: 1rem auto; }
+
+.dl-sandbox .jumbotron p a:hover { color: #ffffff; text-decoration: underline; }
+
+.dl-sandbox input { background: transparent; border: 1px solid #FFFFFF; }
+
+footer { min-height: 30px; margin-top: 30px; line-height: 30px; }
+
+.four-o-four .jumbotron h1 { font-size: 6rem; }
+.four-o-four h2, .four-o-four h3, .four-o-four .jumbotron { text-align: center; }
+.four-o-four ul, .four-o-four ul li { margin: 0; padding: 0; list-style: none; font-size: 1.4rem; text-align: center; }
+.four-o-four p { font-size: 1.4rem; text-align: center; }
+.four-o-four .btn-default { background-color: transparent; border: 1px solid #FFFFFF; color: #FFFFFF; font-size: 1.8rem; margin: 25px auto; padding: 10px 15px; }
+.four-o-four .btn-default:hover { background-color: #FFFFFF; color: #1a43b2; }
+
+.recent-projects a { color: #FFFFFF; }
+.recent-projects a :hover { color: #FFFFFF; text-decoration: underline; }
+.recent-projects section { border: 1px solid #FFFFFF; border-radius: .6rem; padding: 0 1rem; }
+.recent-projects h3 { font-size: 2rem; font-weight: 400; }
+
+.contact .social-links { text-align: center; }
+.contact .social-links .social-link { border: 1px solid #FFFFFF; border-radius: 50%; display: inline-block; height: 50px; margin: 5px; padding: 5px; transition: transform 0.25s ease 0s; width: 50px; }
+.contact .social-links .social-link:hover { transition: transform 0.25s ease 0s; transform: scale(1.2); }
+
+.crunchy-frog a.book-title { font-weight: 600; }
+.crunchy-frog section { border: 1px solid #FFFFFF; border-radius: .6rem; }
+.crunchy-frog input[type="text"] { font-size: 1.6rem; border-radius: .6rem; padding: .5rem; margin: 1rem 0; }

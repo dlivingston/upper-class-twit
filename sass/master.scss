@@ -1,0 +1,247 @@
+$sans: 'Open Sans', sans-serif;
+$mono: 'Inconsoloata';
+
+html {
+	// background: #1a43b2 url('/images/blueprintPattern.jpg') repeat fixed;
+	background: #1a43b2 url('/images/graphpapers/graphpaper-blue.png') repeat fixed;
+	color: #ffffff;
+	font-family: $sans;
+}
+body {
+	margin: 0 auto;
+	color: #ffffff;
+	background: transparent;
+	font-family: $sans;
+	font-size: 10px;
+}
+a {
+	color: #ffffff;
+}
+.navbar-default {
+	background: transparent;
+	border: none;
+	color: #ffffff;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.navbar-header>h1 {
+	font-size: 24px;
+	margin: 0;
+}
+.navbar-header h1 a {
+	font-size: 20px;
+	font-weight: 200;
+}
+.navbar-header .navbar-brand h1 a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.navbar-header {
+	font-size: 24px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.header.container .navbar  {
+	border-bottom: 1px solid #ffffff;
+	padding: 0;
+	border-radius: 0;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+	font-size: 1.4rem;
+}
+.navbar-default .navbar-nav > li:hover, 
+.navbar-default .navbar-nav > li > a:hover  {
+	color: #1a43b2;
+	background: #ffffff;
+}
+.navbar .nav {
+	margin-right: -15px;
+}
+img.dl-logo {
+	display: block;
+	transition: transform 1s ease 0s;
+}
+img.dl-logo:hover {
+	transform: rotateY(360deg);
+    transition: transform 1s ease 0s;
+}
+.jumbotron img.dl-logo {
+	margin: 0 auto 20px;
+}
+.dl-sandbox {
+	p {
+		font-family: $sans;
+		font-size: 1.4rem;
+		font-weight: 100;
+		line-height: 1.8;
+	}
+	.navbar {
+		h1 {
+			line-height: 50px;
+
+		}
+		.navbar-brand {
+			padding: 5px;
+			height: 50px;
+			line-height: 40px;
+		}
+		.dl-logo {
+			width: 40px;
+			margin-right: 10px;
+			display: inline;
+			float: left;
+		}
+	}
+	.navbar-toggle {
+		margin-right: 0;
+		.icon-bar {
+			background-color: #fff;
+		}
+	}
+	.jumbotron {
+		.dl-logo {
+			width: 200px;
+			margin: 0px auto 30px;
+			display: block;
+		}
+		h1 {
+			font-size: 40px;
+			text-align: center;
+			font-weight: 300;
+			margin: 20px 0;
+		}
+		h2 {
+			text-align: center;
+			font-weight: 300;
+			font-size: 30px;
+		}
+	}
+	.cycle-test {
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+	.slideshow {
+		max-height: 500px;
+		overflow: hidden;
+		img {
+			width: 100%;
+		}
+	}
+	.scroll-slide {
+		display: block;
+		width: 100%;
+		
+		a {
+			display: block;
+			width: 100%;
+		}
+	}
+}
+.dl-sandbox .jumbotron {
+	background: transparent;
+	border: 1px solid #ffffff;
+}
+.dl-sandbox .jumbotron p {
+	text-align: center;
+	width: 80%;
+	margin: 1rem auto;
+}
+.dl-sandbox .jumbotron p a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.dl-sandbox input {
+	background: transparent;
+	border: 1px solid #FFFFFF;
+}
+footer {
+	min-height: 30px;
+	margin-top: 30px;
+	line-height: 30px;
+}
+.four-o-four {
+	.jumbotron h1 {
+		font-size: 6rem;
+	}
+	h2, h3, .jumbotron {
+		text-align: center;
+	}
+	ul, ul li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 1.4rem;
+		text-align: center;
+	}
+	p {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+	.btn-default {
+		background-color: transparent;
+		border: 1px solid #FFFFFF;
+		color: #FFFFFF;
+		font-size: 1.8rem;
+		margin: 25px auto;
+		padding: 10px 15px;
+		&:hover {
+			background-color: #FFFFFF;
+			color: #1a43b2;
+		}
+	}
+}
+.recent-projects {
+	a {
+		color: #FFFFFF;
+		:hover {
+			color: #FFFFFF;
+			text-decoration: underline;
+		}
+	}
+	section {
+		border: 1px solid #FFFFFF;
+		border-radius: .6rem;
+		padding: 0 1rem;		
+	}
+	h3 {
+		font-size: 2rem;
+		font-weight: 400;
+	}
+}
+.contact {
+	.social-links {
+		text-align: center;
+		.social-link {
+			border: 1px solid #FFFFFF;
+			border-radius: 50%;
+			display: inline-block;
+			height: 50px;
+			margin: 5px;
+			padding: 5px;
+			transition: transform 0.25s ease 0s;
+			width: 50px;
+			&:hover {
+				transition: transform 0.25s ease 0s;
+				transform: scale(1.2);
+			}
+		}
+	}
+}
+.crunchy-frog {
+	a.book-title {
+		font-weight: 600;
+	}
+	section {
+		border: 1px solid #FFFFFF;
+		border-radius: .6rem;
+	}
+	input[type="text"] {
+		font-size: 1.6rem;
+		border-radius: .6rem;
+		padding: .5rem;
+		margin: 1rem 0;
+	}
+}

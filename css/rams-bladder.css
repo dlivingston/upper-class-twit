@@ -1,0 +1,26 @@
+.rams-bladder body { background: #DCDBCF url("/images/graphpapers/graphpaper-offwhite.png") repeat fixed; font-family: 'Source Sans Pro', sans-serif; font-size: 10px; }
+.rams-bladder h1 { font-size: 4rem; }
+.rams-bladder h2 { font-size: 3.2rem; }
+.rams-bladder h3 { font-size: 2.8rem; }
+.rams-bladder h4 { font-size: 2.4rem; }
+.rams-bladder h5 { font-size: 2rem; }
+.rams-bladder header, .rams-bladder nav, .rams-bladder main, .rams-bladder footer, .rams-bladder p, .rams-bladder ul { font-size: 1.2rem; line-height: 1.5; }
+.rams-bladder header, .rams-bladder main, .rams-bladder footer { min-width: 855px; background: rgba(255, 255, 255, 0.5); width: 80%; margin: 20px auto; padding: 20px; clear: both; overflow: auto; border-radius: 10px; color: #0f0f0f; }
+.rams-bladder a, .rams-bladder a:visited { color: #34363E; }
+.rams-bladder a:hover, .rams-bladder a:active { color: #448CCB; }
+.rams-bladder header h1 { width: 60%; float: left; font-size: 2.6rem; }
+.rams-bladder header nav { width: 40%; float: right; }
+.rams-bladder header nav a { border-left: 1px solid #000000; padding: 0 20px; margin: 10px 0; display: inline-block; float: left; }
+.rams-bladder header nav a:first-child { border: none; }
+.rams-bladder main .left-col { width: 70%; float: left; }
+.rams-bladder main .right-col { width: 30%; float: right; }
+.rams-bladder footer .contact { width: 70%; float: left; }
+.rams-bladder footer .sitemap { width: 30%; float: right; }
+.rams-bladder .faq li.q { font-weight: 700; margin: 20px 0; }
+.rams-bladder .faq li.a { font-size: 1.2rem; margin: 10px 0; }
+.rams-bladder .tabs a span { display: inline-block; border-radius: 5px 5px 0 0; width: 100px; margin-right: 10px; text-align: center; background: #DCDBCF; padding: 5px; }
+.rams-bladder .tabs a span.active { background: #666666; color: #F0F0F0; }
+.rams-bladder .content { background: #666666; padding: 10px; border-radius: 0 5px 5px 5px; }
+.rams-bladder .content ul { background: #DCDBCF; padding: 10px; }
+
+.dl-logo { max-width: 200px; margin: 30px auto; display: block; }
